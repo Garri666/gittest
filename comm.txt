@@ -1,0 +1,29 @@
+
+git config --global --list //查看设置
+
+git init leaning
+cd leaning
+cp ../0-materal/readme .
+
+git add readme
+git status
+git commit -m'Add readme'  //原因
+git log  //日志
+
+git add -u
+
+git clone --bare /user/..../leaning.git ya.git   //哑协议
+
+git clone --bare file:///user/..../leaning.git zhineng.git   //智能协议
+
+git remote -v   //远程仓库查询
+git remote add zhineng file:///users/users/..../666-backup/zhineng.git
+git branch -av
+
+
+
+ssh-keygen -t rsa -b 4096 -C "liyoupu@sina.com" //生成公私匙
+
+git  remote add github git@github.com:Garri666/git_learning.git
+
+git push github -all //push所有分支
